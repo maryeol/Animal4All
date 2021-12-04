@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="My Account">
+            <menu>
+        <item
+            android:id="@+id/animal"
+            android:title="My Animals"
+            android:icon="@drawable/ic_person"
+            />
+        <item
+            android:id="@+id/notf"
+            android:title="Notification"
+            android:icon="@drawable/ic_notification"
+            />
+        <item
+            android:id="@+id/fav"
+            android:title="My Favourite Pets"
+            android:icon="@drawable/ic_favorite"
+            />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Information">
+        <menu>
+        <item
+            android:id="@+id/shop"
+            android:title="Animal Shops"
+            android:icon="@drawable/ic_shop"
+            />
+        <item
+            android:id="@+id/vet"
+            android:title="Veterinary"
+            android:icon="@drawable/ic_hospital"
+            />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Others">
+            <menu>
+        <item
+            android:title="Privacy Policy"
+            android:icon="@drawable/ic_privacy"
+            />
+        <item
+            android:title="Rate this App"
+            android:icon="@drawable/ic_rate"
+            />
+            </menu>
+        </item>
+    </group>
+</menu>
